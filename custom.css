@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css?family=Thasadith');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+* {
+    font-family: 'Thasadith', sans-serif;
+}
+
+h2 {
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-bottom: 20px;
+}
+
+.firstPage {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.start_BT {
+    margin: 0 auto;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.slider {
+    height: 120px;
+    position: relative;
+}
+
+#pa3 {
+    line-height: 100px;
+}
+
+.start_BT:hover {
+    background-color:#666;
+    color: #FFF;
+}
+
+.line {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.secondPage {
+    display: none;
+    width: 450px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.secondPage img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 20px;
+    margin-left: 36px;
+    opacity: 0.5;
+}
+
+.continue_BT {
+    margin: 0 auto;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: none;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.continue_BT:hover {
+    background-color:#666;
+    color: #FFF;
+}
+
+.thirdPage {
+    display: none;
+}
+
+.thirdPage .board {
+    width: 450px;
+    height: 450px;
+    border: 1px solid #999;
+    display: none;
+    margin-left: 500px;
+    margin-top: 100px;
+    background-color:#cccccc;
+    margin-bottom: 30px;
+    position: absolute;
+}
+
+.board {
+    -webkit-transition: all 0.8s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+    -ms-transition: all 0.8s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+    -moz-transition: all 0.8s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+    transition: all 0.8s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+}
+
+.big {
+    z-index: 100;
+    -webkit-transition: all 0.6s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+    -ms-transition: all 0.6s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+    -moz-transition: all 0.6s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+    transition: all 0.6s cubic-bezier(0.58, -0.55, 0.265, 1.45);
+    perspective: 1000;
+}
+
+@-webkit-keyframes animate-guage {
+    0%   { transform: scale(1.04); }
+    50%   { transform: scale(1.06); }
+    100%  { transform: scale(1.04); }
+}
+
+@-webkit-keyframes animate-guage-2 {
+    0%   { transform: scale(1); }
+    50%   { transform: scale(1.02); }
+    100%  { transform: scale(1); }
+}
+
+.board div {
+    width: 145px;
+    margin: 2px;
+    height: 145px;
+    border-radius: 10px;
+    border: 1px solid #999;
+    position: absolute;
+}
+
+#c0 {
+    left: 0;
+    top: 0;
+    border: none;
+    background-position-x: 0;
+    background-position-y: 0;
+    background-image: none;
+}
+
+#c1 {
+    left: 150px;
+    top: 0px;
+    background-position-x: 305px;
+    background-position-y: 0;
+}
+
+#c2 {
+    left: 300px;
+    top: 0px;
+    background-position-x: 160px;
+    background-position-y: 0;
+}
+
+#c3 {
+    left: 0px;
+    top: 150px;
+    background-position-x: 0;
+    background-position-y: 305px;
+}
+
+#c4 {
+    left: 150px;
+    top: 150px;
+    background-position-x:305px;
+    background-position-y:305px;
+}
+
+#c5 {
+    left: 300px;
+    top: 150px;
+    background-position-x: 160px;
+    background-position-y: 305px;
+}
+
+#c6 {
+    left: 0px;
+    top: 300px;
+    background-position-x: 0px;
+    background-position-y: 160px;
+}
+
+#c7 {
+    left: 150px;
+    top: 300px;
+    background-position-x: 305px;
+    background-position-y: 160px;
+}
+
+#c8 {
+    left: 300px;
+    top: 300px;
+    background-position-x: 160px;
+    background-position-y: 160px;
+}
+
+.shuffle {
+    width: 180px;
+    padding-left: 50px;
+    padding-top: 600px;
+    margin: 0 auto;
+}
+
+.selection {
+    margin-left: 20px;
+    margin-bottom: 20px;    
+}
+
+.shuffle_BT {
+    width: 90px;
+    margin-left: 50px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+.shuffle_BT:hover {
+    background-color:#666;
+    color: #FFF;
+}
+
+#finished {
+    font-size: 80px;
+    line-height: 600px;
+    font-weight: bold;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    opacity: 1.0;
+}
+
+#cong {
+    font-size: 80px;
+    line-height: 600px;
+    font-weight: bold;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    opacity: 1.0;
+    display: none;
+}
+
+#comp {
+    font-size: 20px;
+    display: none;
+    text-align:center;
+}
+
+#solve {
+    font-size: 50px;
+    text-align:center;
+    padding-top: 550px; 
+    display: none;
+}
+
+#enter {
+    font-size: 15px; 
+    display: none;
+    text-align:center;
+}
+
+#res {
+    font-size: 20px;
+    text-align:center;
+    display: none;
+}

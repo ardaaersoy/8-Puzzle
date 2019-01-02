@@ -1,0 +1,15 @@
+{
+    "name": "Web_Proje",
+    "version": "1.0.0",
+    "keywords": [
+        "util",
+        "functional",
+        "server",
+        "client",
+        "browser"
+    ],
+    "author": "ardaaersoy",
+    "contributors": [
+    ],
+    "dependencies": {}
+}

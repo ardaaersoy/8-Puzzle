@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>8 Puzzle</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="jquery.js" type="text/javascript"></script>
+        <link href="custom.css" rel="stylesheet" type="text/css"/>
+        <script src="jquery-ui.js" type="text/javascript"></script>
+        <script src="jquery-ab.js" type="text/javascript"></script>
+        <link rel="shortcut icon" href="#" />
+        <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>-->
+    </head>
+    <body>
+        <div class="firstPage">
+            <h2>8 Puzzle</h2>
+            <div class="line"></div>
+            <div class="slider">
+                <div class="pa"><p>CTIS 255 - Web Technologies 1</p><p>PROJECT</p><p>Fall 2018</p></div>
+                <div class="pa"><p>By</p><p>Arda Ersoy</p><p>21502589</p></div>
+                <div class="pa"><p id="pa3">Have Fun :)</p></div>
+            </div>
+            <div class="line"></div>
+            <div class="start_BT">START</div>
+        </div>
+
+        <div class="secondPage">
+            <h2>Select an Image</h2>
+            <div><img class="images" src="1.jpg"></div>
+            <div><img class="images" src="2.jpg"></div>
+            <div><img class="images" src="3.jpg"></div>
+            <div class="continue_BT">CONTINUE</div>
+        </div>
+
+        <div class="thirdPage">
+            <div class="board">
+                <div id="c0"></div>
+                <div id="c1"></div>
+                <div id="c2"></div>
+                <div id="c3"></div>
+                <div id="c4"></div>
+                <div id="c5"></div>
+                <div id="c6"></div>
+                <div id="c7"></div>
+                <div id="c8"></div>
+            </div>
+
+            <div class="shuffle">
+                <label>Select:</label>
+                <select class="selection">
+                    <option>-- Shuffle Amount --</option>
+                    <option class="3m">3 Moves</option>
+                    <option class="30m">30 Moves</option>
+                </select>
+                <div class="shuffle_BT">SHUFFLE</div>
+            </div>
+
+            <div id="solve">Solve Puzzle Now</div>
+            <div id="enter">If you cannot solve, please press Enter.</div>
+            <div id="cong">Congratulations !!</div>
+            <div id="comp">Computer solved the puzzle. Space to restart!</div>
+            <div id="res">Please press space to restart!</div>
+        </div>
+
+    </body>
+</html>
