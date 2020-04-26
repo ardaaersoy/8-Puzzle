@@ -5,4 +5,4 @@ Created using html, css, js and mostly jquery.
 
 <hr>
 
-<img src="ss/start.png" width="400" height="250">  <img src="ss/select.png" width="400" height="200">  <img src="ss/puzzle.png" width="500" height="500">
+<img src="ss/start.png" width="400" height="200">  <img src="ss/puzzle.png" width="500" height="500">
